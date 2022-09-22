@@ -1,12 +1,9 @@
 # Health App Project
 
 ## Description
-	* ### 웨이트 트레이닝의 루틴, 세부 운동의 중량이나 반복횟수 등의 관리에 이용되는 API서버입니다.
+웨이트 트레이닝의 루틴, 세부 운동의 중량이나 반복횟수 등의 관리에 이용되는 API서버입니다.
 
-
-***
-## 
-## 
+<br>
 
 ## usage
  * 사용자는 루틴을 추가하고, 그 후 세부적인 workout들을 추가할 수 있습니다.
@@ -22,11 +19,9 @@
  * 루틴의 완수는 routine table의 done, completed 두 가지로 분류됩니다.
     * done은 일일 완수 여부를 지정하며, DayStart 의 get메서드 실행으로 일일 단위로 초기화될 수 있습니다.
     * completed는 루틴의 종료일이 지난 시점 완수 여부를 지정합니다.
-    
 
-***
-## 
-## 
+<br>
+
 ## Prerequisite
 * requirements
   * asgiref==3.3.1
